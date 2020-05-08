@@ -1,0 +1,388 @@
+.menu-bar{
+    z-index: 1;
+}
+
+.headerheading{
+    font-size: small;
+        
+}
+
+.headerimgs{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+.headerimgs5{
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.headerimgs:hover{
+    background-color: royalblue;
+}
+
+.headerimgs5:hover{
+    background-color: royalblue;
+}
+.headerbtn{
+    border-color: darkgreen;
+    font-size: 0.70em;
+    color:darkgreen;
+    border-radius: 0px;
+    background-color: white !important;
+    margin-top: 12px;
+    text-decoration: none;
+    box-shadow: none;
+}
+.headerbtn:hover{
+    color:black !important;
+    text-decoration: none;
+}
+.saylanimg{
+    width: 10px !important;
+    height: 15px !important;
+}
+/* list styling */
+.menu-bar li{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+}
+.nav1{
+    font-size:small;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    /* padding: 20px 20px 20px 20px; */
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.nav2{
+    font-size:small;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding: 20px 20px 20px 20px; */
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+   
+}
+
+.nav1:hover{
+    background-color: dodgerblue !important;
+    color:white !important;
+}
+
+
+
+.submenu{
+    display: none;
+
+}
+.menu-bar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    /* margin-top: 2px; */
+}
+.menu-bar ul li{
+    background-color: white;  
+}
+.menu-bar ul li:hover .submenu ul{
+    display: block;
+    position: absolute;
+    /* background-color:white; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 170px;
+    line-height: 10px;
+    color: black;
+    margin-left: -20px;
+    
+}
+.menu-bar ul li:hover .submenu ul li{
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    right: 28px;
+    width: 173px;
+
+}
+.submenu ul li:hover{
+    background-color: dodgerblue !important;
+    padding-left: 0;
+    padding-right: 0;
+    color: white    ;
+}
+.submenu ul li{
+    font-size: 0.9em;
+}
+
+.submenu-2{
+    display: none;
+}
+.hover-me:hover .submenu-2{
+    position: absolute;
+    display: block; 
+    margin-top: -40px;
+    color: black;
+    margin-left: 171.5px;
+    
+    font-size: 1.07em;
+}
+.submenu-3{
+    display: none;
+}
+.hover-me:hover .submenu-3{
+    position: absolute;
+    display: block;
+    margin-top: -30px;
+    color: black;
+    margin-left: 171.5px;
+    font-size: 1.07em;
+}
+.submenu-4{
+    display: none;
+}
+.hover-me1:hover .submenu-4{
+    position: absolute;
+    display: block;
+    margin-top: -40px ;
+    padding-left: 5px;
+    color: black;
+    margin-left: 150px;
+    font-size: 1em;
+    z-index: 1;
+}
+/* list styling end */
+
+.movingnews{
+    overflow: hidden;
+    background-color: #2580BF;
+    height: 23px;
+    /* margin-right: 65px;
+    margin-left: 65px; */
+    /* position: relative; */
+    color: white;
+    /* bottom: 20px; */
+    font-size: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mn{
+    margin-top: 3px;
+
+}
+
+.licolor{
+    background-color: white;
+}
+.licolor1{
+
+    background-color: white;
+}
+.countingsdiv{
+    padding-top:60px ;
+    padding-bottom: 60px;
+}
+
+.countingsimg{
+    width: 40px;
+    height: 40px; 
+}
+.countingshead{
+    color: white;
+    font-size: 50px;
+}
+.countingshead1{
+    color: white;
+    font-size: 12px;
+}
+.box1{
+    height: 180px;
+    width: 340px;
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    display: inline-block;
+    /* padding-left: 40px; */
+    box-shadow: 0.5px 0.5px 20px #cccccc;
+    /* position: relative;
+    left:80px;
+    bottom: 80px; */
+}
+.boximgs{
+
+    margin-top:30px ;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.box1head{
+    
+    margin-top: 20px; 
+    color: #2580BF;
+    text-decoration: bold;
+}
+.upcoming{
+    color: royalblue;
+    font-size: 27;
+    display: inline-block;
+    /* margin: 70px 165px 10px 100px; */
+}
+.smallboxheads{
+    padding: 0px 0px 0px 60px;
+    position: relative;
+    bottom: 50px;
+     color: royalblue;
+     text-decoration: bold;
+ }
+
+ .smallbox{
+    background-color: black;
+    width: 350px;
+    height: 78px;
+    
+    display: inline-block;
+    /* position: relative;
+    left: 90px; */
+    /* margin: 10px 40px 10px 10px; */
+    background-color: #f2f2f2;
+    
+}
+.upcomingbox{
+    width: 300px;
+    color: #666666;
+    overflow: hidden;
+    height: 200px;
+}
+
+.imagegallery{
+    display: inline-block;
+    height:140px ;
+    width:220px ;
+}
+
+.ending{
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.cont1{
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: fit-content;
+    padding-left: 80px;
+}
+#con{
+    width: fit-content;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffff;
+}
+#con ul{
+    position: relative;
+    right: 30px;
+}
+#con li{
+    list-style: none;
+    display: inline;
+}
+
+#sub{
+    width: fit-content;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffff; 
+    padding-top: 50px;
+    padding-left: 35px;   
+}
+.inline{
+    padding-left: 5px;
+}
+.inline li{
+    display: inline;
+}
+.block{
+    padding-left: 5px;
+    margin-bottom: 65px;
+}
+.block li{
+    list-style: none;
+
+}
+#use{
+    width: fit-content;
+}
+#use h5{
+    color: white;
+}
+.contactus{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-left: 125px;
+    color: #bbbbbb;
+}
+.contactus1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-left: 145px;
+    color: #bbbbbb;
+}
+.contactimg{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.foot{
+    /* margin: 20px 0px 20px 115px; */
+    /* padding-top: 10px; */
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.footdiv{
+    background-color: royalblue;
+    position: relative;
+    top: -21px;
+    height: 40px;
+
+}
+
+.gototopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    font-size: 25px ;
+    text-align: center;
+    bottom: 12px;
+    right: 22px;
+    opacity: 40%;
+    line-height: 50px;    
+}
+.gototopbtn:hover{
+    background-color: black;
+    opacity: 80%;
+}
